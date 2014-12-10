@@ -41,7 +41,7 @@ sub renamefile{
 	foreach my $strin (@strings){
 		$name =~ s/\Q$strin\E//i;
 	}
-	
+	$name =~ s/_/ /ig;
 	$name =~ s/\[\s*\]//ig;
 	$name =~ s/\(\s*\)//ig;
 	$name =~ s/^\s*//i;
@@ -49,12 +49,12 @@ sub renamefile{
 	$name =~ s/\s+/ /ig;
 	$name =~ s/(?:ft|featuring|feat)\.?\s*/feat. /ig;
 	$name =~ s/\Q&amp;\E/&/ig;
+	$name =~ s/\s+w$//i;
 	
 	$name .= $ex;
 	#print $name."\n";
 	unless($n1 eq $name){print $n1." -> ".$name."\n";};
 	return $name;
 }
-print join("\n",@strings), "\n";
 # and output them all
 #print join("\n",@foundFiles), "\n";
