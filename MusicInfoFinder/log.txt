@@ -1,0 +1,5 @@
+will append '(Extended 12 Inch)'; name:'A. Sugar Hill Gang - Rappers Delight (Extended 12 Inch)' name1:'A. Sugar Hill Gang - Rappers Delight '
+will append '(Don't Fear) The Reaper (Studio Version)'; name:'Blue Oyster Cult - (Don't Fear) The Reaper (Studio Version)' name1:'Blue Oyster Cult - '
+will append '(Extended)'; name:'Iron Man 3 - Can You Dig It (Extended)' name1:'Iron Man 3 - Can You Dig It '
+will append '(feat. donna lewis) (original mix)'; name:'project 46 & dubvisions (feat. donna lewis) - you & i (original mix)' name1:'project 46 & dubvisions  - you & i '
+will append '(studio)'; name:'Rick Derringer - Rock & Roll Hoochie Koo (studio)' name1:'Rick Derringer - Rock & Roll Hoochie Koo '
